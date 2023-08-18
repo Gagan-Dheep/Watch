@@ -71,6 +71,7 @@ border-radius: 20px;
     display: flex;
     align-items: center;
     background-image: url(./images/istockphoto-629554780-612x612.jpg);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
