@@ -124,18 +124,19 @@
             <form>
                 <H1>contact us</H1>
                 <div class="inputbox">
-                    <input type="text" required placeholder="name">
+                    <input type="text" id="name" required placeholder="name">
                 </div>
                 <div class="inputbox">
-                    <input type="email" required placeholder="Email">
+                    <input type="email" id="email" required placeholder="Email">
                 </div>
                 <div class="inputbox">
-                    <input type="tel" required placeholder="Phone no.">
+                    <input type="tel" id="phone" required placeholder="Phone no.">
                 </div>
                 <div class="inputbox">
-                    <textarea placeholder="enter text"></textarea>
+                    <textarea id="comment" rows="2" placeholder="enter text"></textarea>
                 </div>
-                <a href="#" class="btn">SUBMIT</a>
+               <button class="btn" id="submitbtn" type="submit">SUBMIT</button>
+               <div><p id="pop-message" class="contact_message"></p></div>
             </form>
         </div>
     </section>

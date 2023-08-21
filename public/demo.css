@@ -251,8 +251,9 @@ top: 15px;
 text-align: center;
 padding: 20px;
 }
-
-
+.contact_message{
+   font-size: 20px;
+}
 
 .contact .contact-container{
    display: flex;
@@ -301,6 +302,8 @@ position: relative;
    border-bottom: 2px solid black;
    margin-top: 10px;
 }
+
+
 
 .footer{
    padding: 30px;
