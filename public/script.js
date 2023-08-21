@@ -2,10 +2,11 @@
 
 const subsrcibe=document.getElementById("subsribe")
 
-subsrcibe.addEventListener("click",(Event)=>{
-    Event.preventDefault();
+subsrcibe.addEventListener("click",(e)=>{
+    e.preventDefault();
     var email=document.getElementById("email").value
     var emailmessage=document.getElementById("email-message")
+    var form=document.getElementById("form")
 
     if(email===""){
         emailmessage.textContent="Please fill out the email field"
@@ -17,10 +18,10 @@ subsrcibe.addEventListener("click",(Event)=>{
         emailmessage.textContent="Please enter a valid Email Id"
         return
     }
-    emailmessage.textContent="Succesfully Submitted"
     form.reset();
-   
-   
-
-
+    emailmessage.textContent="Succesfully Submitted"
+    
+   setTimeout(()=>{
+    emailmessage.textContent=""
+   },2000)
 })
