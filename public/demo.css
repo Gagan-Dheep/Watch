@@ -70,7 +70,7 @@ border-radius: 20px;
  .home{
     display: flex;
     align-items: center;
-    background-image: url(./images/istockphoto-629554780-612x612.jpg);
+    background-image: url(../images/istockphoto-629554780-612x612.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -245,6 +245,12 @@ margin: 20px;
    top: -20px;
    border-radius: 50px;
 }
+.email-message{
+position: absolute;
+top: 15px;
+text-align: center;
+padding: 20px;
+}
 
 
 
@@ -298,7 +304,7 @@ position: relative;
 
 .footer{
    padding: 30px;
-   background: url(./images/wave\ \(2\).png);
+   background: url(../images/wave\ \(2\).png);
    background-size:cover ;
    background-position:center ;
 
