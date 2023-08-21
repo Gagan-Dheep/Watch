@@ -62,6 +62,7 @@ subsrcibe.addEventListener("click",(e)=>{
         popmessage.textContent = "Submitted successfully!";
 
         setTimeout(function () {
+    
             popmessage.textContent = "";
         }, 3000);
     });

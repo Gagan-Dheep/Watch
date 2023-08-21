@@ -279,7 +279,7 @@ padding: 20px;
    width: 800px;
 }
 
-.contact .contact-container form{
+.contact .contact-container .form{
    flex-grow:1 ;
    flex-shrink: 1;
    flex-basis: 400px;
