@@ -41,7 +41,7 @@ subsrcibe.addEventListener("click",(e)=>{
         console.log(name)
 
         var emailpattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-        var phonepattern = /^\+{0,2}(\-|\.|\s)?(\(?\d{0,3}\))?(\-|\.|\s)?\d{3}(\-|\.|\s)?\d{4}$/g;
+        var phonepattern = /^[6-9]\d{0,9}$/
 
         if (name === "" || contactemail === "" || phone === "") {
             popmessage.textContent = "Please fill out all fields";
@@ -53,10 +53,10 @@ subsrcibe.addEventListener("click",(e)=>{
             return;
         }
 
-        // if (!phonepattern.test(phone)) {
-        //     popmessage.textContent = "Please enter a valid phone number";
-        //     return;
-        // }
+        if (!phonepattern.test(phone)) {
+            popmessage.textContent = "Please enter a valid phone number";
+            return;
+        }
 
         contactform.reset();
         popmessage.textContent = "Submitted successfully!";
