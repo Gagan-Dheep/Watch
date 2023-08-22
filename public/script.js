@@ -53,10 +53,10 @@ subsrcibe.addEventListener("click",(e)=>{
             return;
         }
 
-        if (!phonepattern.test(phone)) {
-            popmessage.textContent = "Please enter a valid phone number";
-            return;
-        }
+        // if (!phonepattern.test(phone)) {
+        //     popmessage.textContent = "Please enter a valid phone number";
+        //     return;
+        // }
 
         contactform.reset();
         popmessage.textContent = "Submitted successfully!";
